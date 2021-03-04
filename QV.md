@@ -106,9 +106,9 @@ Second one, make a spreadsheet with extension _**.xlsx**_. You can do that with 
 <br>
 **Images**: Download free pictures (54x36 pix or similar) of country flags."<br><br>
 
-![catalonia flag](./MultiLanguage\img/catalonia.jpg)<br>
-![spain flag](./MultiLanguage\img/spain.jpg)<br>
-![uk flag](./MultiLanguage\img/uk.jpg)<br>
+![catalonia flag](./MultiLanguage/img/catalonia.jpg)<br>
+![spain flag](./MultiLanguage/img/spain.jpg)<br>
+![uk flag](./MultiLanguage/img/uk.jpg)<br>
 
 **Script**: Go to File/Script Editor menu, then write: <br><br>
 ~~~
