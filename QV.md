@@ -366,13 +366,13 @@ And that's all folks!
 
 <br>
 
-![Catalan](./MultiLanguage\assets/QV001.png)<br>
+![Catalan](./MultiLanguage/assets/QV001.png)<br>
 Results in Catalan language.   
 <br>
-![Spanish](./MultiLanguage\assets/QV002.png)<br>
+![Spanish](./MultiLanguage/assets/QV002.png)<br>
 Results in Spanish language.   
 <br>
-![English](./MultiLanguage\assets/QV003.png)<br>
+![English](./MultiLanguage/assets/QV003.png)<br>
 Results in English language.   
 <br>
 Now try to do it yourself. It's easy, it's KISS ;-).
