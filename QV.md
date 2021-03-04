@@ -104,6 +104,7 @@ Second one, make a spreadsheet with extension _**.xlsx**_. You can do that with 
 |||\uk.jpg|
 
 <br>
+
 **Images**: Download free pictures (54x36 pix or similar) of country flags."<br><br>
 
 ![catalonia flag](./MultiLanguage/img/catalonia.jpg)<br>
