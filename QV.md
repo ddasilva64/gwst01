@@ -19,12 +19,12 @@ This Markdown doc it's open to anyone who wants to collaborate, but ever keeping
 <br>
 
 ## Index
-0. [What's the meaning of KISS?](#id0)
+0. [What's the meaning of KIS?](#id0)
 1. [Multilanguage Levels](#id1)
 2. [Multilanguage Level 1 QlikView sample](#id2)
 
-### What's the meaning of KISS?<a name="id0"></a>
-    KISS = Kepp It Simple Sptupid
+### What's the meaning of KIS?<a name="id0"></a>
+    KIS = Kepp It Simple
 That's owr philosophy, that's all folks!.<br><br>
 ### Multilanguage Levels<a name="id1"></a>
     Level 0: Level 0: There aren't no translations in our application.
@@ -37,7 +37,7 @@ That's owr philosophy, that's all folks!.<br><br>
 
 If you translate contents, but don't traslate labels, messages and you've only one country market, may be you've a little concept problem.<br><br>
 ### Multilanguage Level 1 QlikView sample<a name="id2"></a>
-In this case we will do a KISS sample of Multilanguage Level 1, in QlikViev.<br><br>
+In this case we will do a KIS sample of Multilanguage Level 1, in QlikViev.<br><br>
 First of all, download for free _**QlikView Personal Edition**_.<br><br>
 Second one, make a spreadsheet with extension _**.xlsx**_. You can do that with _**LibreOffice Calc**_ and others.<br><br>
 
@@ -105,13 +105,13 @@ Second one, make a spreadsheet with extension _**.xlsx**_. You can do that with 
 
 <br>
 
-**Images**: Download free pictures (54x36 pix or similar) of country flags."<br><br>
+**Images**: Download free pictures (54x36 pix or similar) of country flags.<br><br>
 
 ![catalonia flag](./MultiLanguage/img/catalonia.jpg)<br>
 ![spain flag](./MultiLanguage/img/spain.jpg)<br>
 ![uk flag](./MultiLanguage/img/uk.jpg)<br>
 
-**Script**: Go to File/Script Editor menu, then write: <br><br>
+**Script**: Go to File/Script Editor menu, then write (formats and data model): <br><br>
 ~~~
 SET ThousandSep='.';
 SET DecimalSep=',';
@@ -170,6 +170,10 @@ chr(95)="]" (closing bracket)
 
 <br>
 
+varLanguage stores the Language selected. We show
+only the data (caption labels) that pertains to the selected language.
+<br><br>
+
 **Sheet objects**: Go to Main sheet, then add (rigth mouse button):<br><br>
 
 ***Text objects***: Locate 3 ones in the same position, for exemple top left of the screen.<br><br>
@@ -208,9 +212,13 @@ chr(95)="]" (closing bracket)
 | :--- | :--- | :------- | 
 |General|Object ID|default|
 |General|Caption|=Only({<Index={1}>} [$(=varLanguage)])|
+|General|Field|Language|
 |Caption|Show caption check box|marked|
-
 <br>
+
+The Index (<Index={1}>)refers to the index that is defined in the Spreadsheet.
+
+The variable varLanguage ([$(=varLanguage)]) tells QlikView which column to look at for the translation (Catalan, Spanish or English)
 
 Tray to change languge in list box, then change flag picture.   
 <br>
@@ -221,6 +229,7 @@ Tray to change languge in list box, then change flag picture.
 | :--- | :--- | :------- | 
 |General|Object ID|default|
 |General|Caption|=Only({<Index={13}>} [$(=varLanguage)])|
+|General|Field|Language|
 |Fields|Language|select|
 |Fields|Order|select|
 
@@ -234,6 +243,7 @@ This is the current sheet object. So when you change language, also change capti
 | :--- | :--- | :------- | 
 |General|Object ID|default|
 |General|Caption|=Only({<Index={6}>}[$(=varLanguage)])|
+|General|Field|Order|
 |Caption|Show caption check box|marked|
 
 <br>
@@ -246,6 +256,7 @@ This is the order list box, comming soon we see efect. So when you change langua
 | :--- | :--- | :------- | 
 |General|Object ID|default|
 |General|Caption|=Only({<Index={2}>} [$(=varLanguage)])|
+|General|Field|Company|
 |Caption|Show caption check box|marked|
 
 <br><br>
@@ -258,6 +269,7 @@ This is the company list box, comming soon we see efect. So when you change lang
 | :--- | :--- | :------- | 
 |General|Object ID|default|
 |General|Caption|=Only({<Index={7}>} [$(=varLanguage)])|
+|General|Field|Sector|
 |Caption|Show caption check box|marked|
 
 <br><br>
@@ -270,6 +282,7 @@ This is the sector list box, comming soon we see efect. So when you change langu
 | :--- | :--- | :------- | 
 |General|Object ID|default|
 |General|Caption|=Only({<Index={3}>} [$(=varLanguage)])|
+|General|Field|Product|
 |Caption|Show caption check box|marked|
 
 <br><br>
@@ -376,4 +389,4 @@ Results in Spanish language.
 ![English](./MultiLanguage/assets/QV003.png)<br>
 Results in English language.   
 <br>
-Now try to do it yourself. It's easy, it's KISS ;-).
+Now try to do it yourself. It's easy, it's KIS ;-).
