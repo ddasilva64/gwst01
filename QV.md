@@ -273,7 +273,6 @@ This is the company list box, comming soon we see efect. So when you change lang
 |Caption|Show caption check box|marked|
 
 <br><br>
-
 This is the sector list box, comming soon we see efect. So when you change language, also change caption list box, well, anyway it's the same in all three languages.   
 <br>
 
@@ -298,7 +297,6 @@ This is the product list box, comming soon we see efect. So when you change lang
 |Caption|Show caption check box|marked|
 
 <br><br>
-
 This is the current selecton box, comming soon we see efect. So when you change language, also change caption current selection box. If you change anywhere, you will see changes in this box.   
 <br>
 
