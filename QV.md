@@ -25,7 +25,7 @@ This Markdown doc it's open to anyone who wants to collaborate, but ever keeping
 
 ### What's the meaning of KIS?<a name="id0"></a>
     KIS = Kepp It Simple
-That's owr philosophy, that's all folks!.<br><br>
+That's our philosophy, that's all folks!.<br><br>
 ### Multilanguage Levels<a name="id1"></a>
     Level 0: Level 0: There aren't no translations in our application.
 
