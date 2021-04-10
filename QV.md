@@ -107,9 +107,9 @@ Second one, make a spreadsheet with extension _**.xlsx**_. You can do that with 
 
 **Images**: Download free pictures (54x36 pix or similar) of country flags.<br><br>
 
-![catalonia flag](./MultiLanguage/img/catalonia.jpg)<br>
-![spain flag](./MultiLanguage/img/spain.jpg)<br>
-![uk flag](./MultiLanguage/img/uk.jpg)<br>
+![catalonia flag](https://i.imgur.com/3awFqpk.jpg)<br>
+![spain flag](https://i.imgur.com/XKpYSFP.jpg)<br>
+![uk flag](https://i.imgur.com/x7PlKh4.jpg)<br>
 
 **Script**: Go to File/Script Editor menu, then write (formats and data model): <br><br>
 ~~~
@@ -378,13 +378,13 @@ And that's all folks!
 
 <br>
 
-![Catalan](./MultiLanguage/assets/QV001.png)<br>
+![Catalan](https://i.imgur.com/e0Jb10F.png)<br>
 Results in Catalan language.   
 <br>
-![Spanish](./MultiLanguage/assets/QV002.png)<br>
+![Spanish](https://i.imgur.com/73xfcX0.png)<br>
 Results in Spanish language.   
 <br>
-![English](./MultiLanguage/assets/QV003.png)<br>
+![English](https://i.imgur.com/D7tSIl5.png)<br>
 Results in English language.   
 <br>
 Now try to do it yourself. It's easy, it's KIS ;-).
